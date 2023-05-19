@@ -1,0 +1,18 @@
+footer{
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin: 0px 2px;
+}
+
+#one{
+    color: white;
+}
+
+#two{
+    color: #ff5656;
+}

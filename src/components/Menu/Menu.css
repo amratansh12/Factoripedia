@@ -1,0 +1,26 @@
+.menu{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+
+.menu li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: underline;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}

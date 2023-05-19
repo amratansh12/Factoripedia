@@ -1,0 +1,57 @@
+.containerResult{
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 30px;
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+    backdrop-filter: blur(18px) saturate(131%);
+    -webkit-backdrop-filter: blur(18px) saturate(131%);
+    background-color: rgba(17, 25, 40, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#resultHeading{
+    margin: 0px;
+    font-weight: 100;
+    color: hsl(0, 14%, 66%);
+}
+
+#factorValue{
+    margin: 0px;
+}
+
+button{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    background-color:greenyellow ;
+}
+
+button:hover{
+    background-color: rgb(130, 255, 47);
+}
+
+#uniformResult{
+    font-size: 20px;
+    color :#efdfff;
+}
+
+#normalFactors{
+    margin: -5px;
+    font-size: 20px ;
+    color: #ffcaca;
+}
+
+@media screen and (max-width: 750px){
+    .containerResult{
+        width: 75%;
+    }
+}

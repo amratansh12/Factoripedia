@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.container{
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-around;
+    height: 350px;
+    padding: 30px;
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+    backdrop-filter: blur(18px) saturate(131%);
+    -webkit-backdrop-filter: blur(18px) saturate(131%);
+    background-color: rgba(17, 25, 40, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+label{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+input, select{
+    font-weight: bold ;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+select option{
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 750px){
+    .container{
+        width: 75%;
+    }
+}
