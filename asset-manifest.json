@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Factoripedia/static/css/main.40f19cdb.css",
+    "main.js": "/Factoripedia/static/js/main.97ae6ddf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Factoripedia/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Factoripedia/index.html",
+    "main.40f19cdb.css.map": "/Factoripedia/static/css/main.40f19cdb.css.map",
+    "main.97ae6ddf.js.map": "/Factoripedia/static/js/main.97ae6ddf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Factoripedia/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40f19cdb.css",
+    "static/js/main.97ae6ddf.js"
+  ]
+}
